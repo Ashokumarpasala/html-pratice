@@ -1,0 +1,91 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	clear: both;
+}
+
+
+.container {
+	margin: auto;
+	overflow: hidden;
+}
+/* main header */
+header {
+	background-color: coral;
+	color: whitesmoke;
+	padding: 20px;
+}
+
+/* links */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* navbar */
+.navbar {
+	background-color: black;
+	height: 60px;
+	padding: 25px;
+}
+
+.navbar ul li a {
+	color: white;
+}
+.navbar ul li {
+	float: left;
+	list-style: none;
+	margin-right: 80px;
+}
+
+/* showcase */
+
+.showCase {
+	height: 250px;
+	text-align: center;
+	align-content: center;
+	background-image: url("https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/02/red-night-light-1296x728-header.jpg?w=1155&h=1528");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.showCase h1 {
+	margin: auto;
+}
+
+/* main content */
+
+.main {
+	margin: 20px;
+}
+.main .box-1 {
+	float: left;
+    width: 70%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.box-1 h1 {
+	padding: 10px 0;
+}
+.main .box-2 {
+	float: right;
+	width: 30%;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+/* footer */
+footer {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 30px;
+}
